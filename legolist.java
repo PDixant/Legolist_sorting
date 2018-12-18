@@ -25,7 +25,7 @@ public class legolist{
 	}
 	public void create(int lines) throws IOException{
 		//		FileReader fr = new FileReader("E:\\Grade 12\\(3)Chen\\.LEGO PROJECT\\combined database.txt");
-		FileReader fr = new FileReader(".\combined-database.txt");
+		FileReader fr = new FileReader(".\\combined-database.txt");
 		BufferedReader br = new BufferedReader(fr);
 		int s;
 		String t;
@@ -1177,7 +1177,7 @@ public class legolist{
 		int li=0;
 		//		FileReader fr2 = new FileReader("E:\\Grade 12\\(3)Chen\\.LEGO PROJECT\\combined database.txt");
 
-		FileReader fr2 = new FileReader(".\combined-database.txt");
+		FileReader fr2 = new FileReader(".\\combined-database.txt");
 		BufferedReader br2 = new BufferedReader(fr2);
 		try{
 			do{
