@@ -14,7 +14,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 
 
-		FileReader fr = new FileReader("C:\\Users\\patel\\Desktop\\combined-database.txt");
+		FileReader fr = new FileReader(".\combined-database.txt");
 		BufferedReader br = new BufferedReader(fr);
 		int x;
 		int y;
